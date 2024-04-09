@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+
+body, button, input {
+    font: 400 18px "Roboto", sans-serif;
+    background-color: sandybrown;
+}
+
+.topo img {
+    margin-right: auto;
+}
+
+li{
+    list-style: none;
+}
+
+
+.comeco {
+    background-color: #047b02;
+}
+.navegacao{
+    display: flex;
+    list-style: none;
+}
+
+.grade{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    background-color: #0bc008;
+    margin: 10px;
+    padding: 15px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.topo{
+    background-image:url(fundo.jpeg) ;
+    background-position:50% 90% ;
+        flex-direction: column;
+        align-items: center;
+} 
+
+.botao{
+    background-color: rgba(0, 89, 255, 0.699);
+        color: rgb(238, 255, 0);
+        text-decoration: none;
+        padding: 15px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        font-size: 15px;
+        width: 180px;
+        height: 50px;
+}
+
+.botao:hover {
+    background-color: rgb(0, 255, 34);
+}
+
+.vendas {
+    margin: 23px;
+    padding: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+.vendas img {
+    width:100%;
+    }
+
+    .texto {
+        text-align: center;
+        font-size: 30px;
+        margin: auto;
+    }
+    
+    .textprod {color: rgb(0, 0, 0);
+    
+    }
+    
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+    }
+    
+    .menu a:hover {
+        color: rgb(172, 112, 2);
+    }
+    
+    .menu li {
+        margin-left: 10px;
+        text-align: right;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+        display: flex;
+    }
+    
+    .rodape {
+        font-size: 15px;
+        padding: 15px;   
+        text-align: center;
+    }
